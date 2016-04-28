@@ -1,7 +1,14 @@
 {
   "name": "cylon-attacknid",
-  "description": "Your package description",
+  "description": "Cylon module for Combat Creatures Attacknid",
   "version": "0.0.0",
+  "author": "Ron Dagdag <rlyle78@gmail.com>",
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rondagdag/cylon-attacknid"
+  },
+  "license": "Apache-2.0",
   "devDependencies": {
     "chai": "3.0.0",
     "mocha": "2.2.5",
