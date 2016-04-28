@@ -8,7 +8,7 @@ module.exports = {
   adaptors: ["attacknid"],
 
   // Drivers your module provides, e.g. ["led", "button"]
-  drivers: ["spider"],
+  drivers: ["attacknid"],
 
   // Modules intended to be used with yours, e.g. ["cylon-gpio"]
   dependencies: [],

@@ -4,11 +4,11 @@ var Cylon = require("cylon");
 
 Cylon.robot({
   connections: {
-    attacknid: { adaptor: "attacknid" }
+    attacknid: { adaptor: "attacknid", address : "0000000000" }
   },
 
   devices: {
-    spider: { driver: "spider", pin: 1 }
+    spider: { driver: "attacknid"}
   },
 
   work: function(my) {
